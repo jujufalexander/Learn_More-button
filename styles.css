@@ -1,0 +1,44 @@
+  /* styles.css */
+
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Button style with animation */
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    background: linear-gradient(to right, #8e43f0, #00c4cc);
+    /* Use gradient animation */
+    background-size: 200% auto;
+    animation: gradient-animation 3s infinite;
+  }
+  
+ /* Gradient animation effect */
+@keyframes gradient-animation {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+
+  button:hover {
+    transform: translateY(-7px);
+  }
+
+  button:active {
+    transform: translateY(-1px);
+  }
