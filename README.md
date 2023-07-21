@@ -23,8 +23,9 @@ To view the button live, visit the videos folder in this project's GitHub direct
 
 Credits:
 
-This project was created by Your [Julian Alexander](https://github.com/jujufalexander).
-License
+This project was created by Julian Alexander https://github.com/jujufalexander.
+
+License:
 
 This project is licensed under the MIT License.
 
